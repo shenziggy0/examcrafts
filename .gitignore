@@ -1,0 +1,187 @@
+# ---------------------------------------------------------------
+# macOS
+# ---------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+Icon?
+
+# ---------------------------------------------------------------
+# Windows
+# ---------------------------------------------------------------
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---------------------------------------------------------------
+# Linux
+# ---------------------------------------------------------------
+*~
+.directory
+.Trash-*
+
+# ---------------------------------------------------------------
+# Editors / IDEs
+# ---------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+.idea/
+*.iml
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------------------------------------------------
+# Node / JavaScript / TypeScript
+# ---------------------------------------------------------------
+node_modules/
+.pnpm-store/
+.yarn/
+jspm_packages/
+bower_components/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.turbo/
+.parcel-cache/
+.cache/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.eslintcache
+.stylelintcache
+
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------
+# Rust / Go / Java / native build output
+# ---------------------------------------------------------------
+target/
+Cargo.lock.orig
+*.rlib
+*.profraw
+vendor/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+hs_err_pid*
+replay_pid*
+*.o
+*.a
+*.dylib
+*.dll
+*.exe
+
+# ---------------------------------------------------------------
+# Mobile / app packaging
+# ---------------------------------------------------------------
+*.ipa
+*.apk
+*.aab
+*.hap
+*.hsp
+Pods/
+.gradle/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+local.properties
+
+# ---------------------------------------------------------------
+# Environment / secrets  (never commit these)
+# ---------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+secrets.json
+credentials.json
+service-account*.json
+
+# ---------------------------------------------------------------
+# Logs / temp / databases
+# ---------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+.temp/
+*.tmp
+*.bak
+*.orig
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+
+# ---------------------------------------------------------------
+# OS / tooling metadata
+# ---------------------------------------------------------------
+.dsh/
+.tool-versions
