@@ -185,3 +185,14 @@ temp/
 # ---------------------------------------------------------------
 .dsh/
 .tool-versions
+
+# ---------------------------------------------------------------
+# Project-specific
+# ---------------------------------------------------------------
+# Django：collectstatic 的产物，由构建流程生成，不入库
+staticfiles/
+# Cloudflare Wrangler 本地状态（若采用 Workers 部署路线）
+.wrangler/
+# 参照实现的编译产物：仅作本地参考，不再分发他人代码
+# 需要时用 docs/recon/fetch-fix.mjs 重新采集，见 docs/recon/README.md
+docs/recon/assets/

@@ -1,0 +1,17 @@
+HTTP/2 200 
+last-modified: Sun, 05 Jul 2026 10:10:50 GMT
+etag: "6a4a2daa-bd4"
+server: nginx
+content-type: text/html
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000; includeSubDomains
+alt-svc: clear
+content-length: 3028
+accept-ranges: bytes
+date: Thu, 15 Oct 2026 12:04:46 GMT
+age: 6
+eo-log-uuid: 8963205264932087102
+eo-cache-status: HIT
+nel: {"success_fraction":0.1,"report_to":"eo-nel","max_age":604800}
+report-to: {"endpoints":[{"url":"https://nel.teo-rum.com/eo-cgi/nel"}],"group":"eo-nel","max_age":604800}
+
